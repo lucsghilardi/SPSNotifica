@@ -1,4 +1,4 @@
-# SPSNotifica Bradesco
+# SPSNotifica Bradesco ShopFácil
 Autor: Lucas Ghilardi<br>
 E-mail: lucasmghilardi@gmail.com<br>
 Retorno Bradesco SPSNotifica v1 2 2 - PHP<br>

@@ -15,8 +15,7 @@
      //PEDIDO JSON
      
      $secret_key=$key.$pedido;
-     // hash
-     $key = hash('sha256', $secret_key);
+ 
      $key = openssl_pbkdf2($secret_key,$salt,'256','65536', 'sha256'); 
 
      // iv - encrypt method AES-256-CBC expects 16 bytes - else you will get a warning
